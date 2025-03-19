@@ -1,0 +1,23 @@
+#body_color {
+    background: #9e9e9e;
+}
+h1 {
+    text-align: center;
+}
+section {
+    width: calc(45% - 1em - .5em);
+    height: 30em;
+    margin: 1em auto;
+    padding: .5em;
+    border: 1px solid black;
+    border-radius: .5em;
+    background: #8fa8cd;
+    overflow-y: auto;
+}
+#kenny-one {
+    display: flex;
+    justify-content: space-evenly;
+}
+h2 {
+    text-align: center;
+}
