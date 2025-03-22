@@ -1,18 +1,20 @@
 #body_color {
     background: #9e9e9e;
 }
-h1 {
-    text-align: center;
+#headcolor {
+    color: black;
+    font-family: "Montserrat", "Roboto", sans-serif;
 }
 section {
-    width: calc(45% - 1em - .5em);
-    height: 30em;
+    width: calc(45% - 1em - 1em);
+    height: 35em;
     margin: 1em auto;
-    padding: .5em;
+    padding: 1em;
     border: 1px solid black;
     border-radius: .5em;
     background: #8fa8cd;
     overflow-y: auto;
+    font-family: "Open Sans", sans-serif;
 }
 #kenny-one {
     display: flex;
@@ -20,4 +22,15 @@ section {
 }
 h2 {
     text-align: center;
+}
+img {
+    width: 40%;
+    height: auto;
+    padding: .5em;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
 }
