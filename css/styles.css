@@ -6,7 +6,7 @@
     font-family: "Montserrat", "Roboto", sans-serif;
 }
 section {
-    width: calc(45% - 1em - 1em);
+    width: calc(80% - 1em - 1em);
     height: 35em;
     margin: 1em auto;
     padding: 1em;
@@ -33,4 +33,13 @@ img {
 }
 .right {
     float: right;
+}
+@media screen and (min-width: 60em) {
+    section {
+        width: calc(45% - 1em - 1em);
+    }
+    #kenny-one {
+    display: flex;
+    justify-content: space-evenly;
+}
 }
