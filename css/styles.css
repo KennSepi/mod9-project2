@@ -16,10 +16,6 @@ section {
     overflow-y: auto;
     font-family: "Open Sans", sans-serif;
 }
-#kenny-one {
-    display: flex;
-    justify-content: space-evenly;
-}
 h2 {
     text-align: center;
 }
@@ -39,7 +35,7 @@ img {
         width: calc(45% - 1em - 1em);
     }
     #kenny-one {
-    display: flex;
-    justify-content: space-evenly;
+        display: flex;
+        justify-content: space-evenly;
 }
 }
