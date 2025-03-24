@@ -30,6 +30,25 @@ img {
 .right {
     float: right;
 }
+
+.page3-4-section {
+    width: calc(120% - 1em - 1em);
+    height: 35em;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: .5em;
+    background: #8fa8cd;
+    overflow-y: auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.page3-4-img {
+    width: auto;
+    height: auto;
+    padding: .5em;
+}
+
 @media screen and (min-width: 60em) {
     section {
         width: calc(45% - 1em - 1em);
