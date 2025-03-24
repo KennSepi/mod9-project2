@@ -58,6 +58,7 @@ img {
 footer {
     color: black;
     font-family: "Montserrat", "Roboto", sans-serif;
+    margin-top: 4em;
 }
 
 @media screen and (min-width: 60em) {
