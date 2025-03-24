@@ -55,6 +55,11 @@ img {
     padding: .5em;
 }
 
+footer {
+    color: black;
+    font-family: "Montserrat", "Roboto", sans-serif;
+}
+
 @media screen and (min-width: 60em) {
     section {
         width: calc(45% - 1em - 1em);
